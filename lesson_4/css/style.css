@@ -1,0 +1,232 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+* {
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/* Убирает линии обводки ***************************************************/
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+header,
+footer,
+nav,
+aside {
+	display: block;
+}
+
+/* Уравнивает параметры шрифтов на разных браузерах */
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+/* Прошу элементы форм наследовать стили элементов шрифта */
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+/* Убирает крест у IE */
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	bottom: 0;
+}
+a {
+	color: inherit;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+/*--------------------------- body */
+
+@font-face {
+	font-family: "Calama Regular";
+	src: url("../fonts/calama-regular.woff") format("woff"), url("../fonts/calama-regular.woff2") format("woff2");
+	src: url("../fonts/calama-regular.svg") format("svg"); /* Legacy iOS */
+	src: url("../fonts/calama-regular.eot"); /* IE9 Compat Modes */
+	src: url ("../fonts/calama-regular.otf") format("opentype"); /* Open Type Font */
+	src: url("../fonts/calama-regular.ttf") format("truetype"); /* Safari, Android, iOS */
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "beermoney";
+	src: url(../fonts/beermoney.woff) format("woff"), url(../fonts/beermoney.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Gradec";
+	src: url(../fonts/Gradec-Light.woff) format("woff"), url(../fonts/Gradec-Light.woff2) format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gradec";
+	src: url(../fonts/Gradec-Regular.woff) format("woff"), url(../fonts/Gradec-Regular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gradec";
+	src: url(../fonts/Gradec-Italic.woff) format("woff"), url(../fonts/Gradec-Italic.woff2) format("woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gradec";
+	src: url(../fonts/Gradec-Medium.woff) format("woff"), url(../fonts/Gradec-Medium.woff2) format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gradec";
+	src: url(../fonts/Gradec-Bold.woff) format("woff"), url(../fonts/Gradec-Black.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Gradec";
+	src: url(../fonts/Gradec-BoldItalic.woff) format("woff"), url(../fonts/Gradec-BoldItalic.woff2) format("woff2");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+body {
+	font-family: Gradec;
+}
+.wpapper {
+}
+.link {
+	font-size: 25px;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.fonts-Lato_400 {
+	font-family: "Lato", sans-serif;
+}
+.fonts-Lato_700 {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+}
+.fonts-Lato_900 {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+}
+.fonts-Calama_Regular {
+	font-family: Calama Regular;
+	letter-spacing: 3px;
+}
+.fonts-beermoney_400 {
+	font-family: beermoney;
+}
+.fonts-Gradec_300 {
+	font-family: Gradec;
+	font-weight: 300;
+}
+.fonts-Gradec_400 {
+	font-family: Gradec;
+	font-weight: 400;
+}
+.fonts-Gradec_400-italic {
+	font-family: Gradec;
+	font-weight: 400;
+	font-style: italic;
+}
+.fonts-Gradec_500 {
+	font-family: Gradec;
+	font-weight: 500;
+}
+.fonts-Gradec_700 {
+	font-family: Gradec;
+	font-weight: 700;
+}
+.fonts-Gradec_700-italic {
+	font-family: Gradec;
+	font-weight: 700;
+	font-style: italic;
+}
+.up {
+}
+.link-up {
+	text-decoration: underline;
+	text-align: center;
+	display: block;
+	color: red;
+}
+div h2 {
+	font-weight: inherit;
+	font-size: 22px;
+	line-height: 30px;
+	text-decoration: overline;
+}
+div p {
+	font-size: 18px;
+	line-height: 24px;
+}
+div h2 + p {
+	text-indent: 25px;
+}
+
+div h2 + p span {
+	text-shadow: 2px 1px 3px black;
+}
+div p ~ p {
+	text-transform: uppercase;
+	word-spacing: 30px;
+}
