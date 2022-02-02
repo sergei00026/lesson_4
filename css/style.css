@@ -226,7 +226,7 @@ div h2 + p {
 div h2 + p span {
 	text-shadow: 2px 1px 3px black;
 }
-div p ~ p {
+div p span + span {
 	text-transform: uppercase;
 	word-spacing: 30px;
 }
